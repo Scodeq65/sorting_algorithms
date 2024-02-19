@@ -20,7 +20,7 @@ void bubble_sort(int *array, size_t size)
 		swapped = 0;
 		for (j = 0; j < size - i - 1; j++)
 		{
-			if (arrau[j] > array[j + 1])
+			if (array[j] > array[j + 1])
 			{
 				temp = array[j];
 				array[j] = array[j + 1];
